@@ -160,7 +160,7 @@ if __name__ == '__main__':
     config = Config()
     config.env = args.env
     config.gamma = 0.99
-    config.frames = 2050000
+    config.frames = 1000000
     config.use_cuda = True
     config.learning_rate = 0.001
     config.max_buff = 500000
